@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moliniao.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.moliniao.entity.Order">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="order_no" jdbcType="VARCHAR" property="orderNo" />
+    <result column="student_id" jdbcType="BIGINT" property="studentId" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="total_price" jdbcType="DECIMAL" property="totalPrice" />
+    <result column="trade_type" jdbcType="VARCHAR" property="tradeType" />
+    <result column="pay_way" jdbcType="VARCHAR" property="payWay" />
+    <result column="pay_status" jdbcType="VARCHAR" property="payStatus" />
+    <result column="evaluation" jdbcType="VARCHAR" property="evaluation" />
+    <result column="consume_address" jdbcType="VARCHAR" property="consumeAddress" />
+    <result column="creator" jdbcType="VARCHAR" property="creator" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="updator" jdbcType="VARCHAR" property="updator" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from cms_order
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.moliniao.entity.Order">
+    insert into cms_order (id, order_no, student_id,
+      type, total_price, trade_type,
+      pay_way, pay_status, evaluation,
+      consume_address, creator, create_time,
+      updator, update_time)
+    values (#{id,jdbcType=BIGINT}, #{orderNo,jdbcType=VARCHAR}, #{studentId,jdbcType=BIGINT},
+      #{type,jdbcType=INTEGER}, #{totalPrice,jdbcType=DECIMAL}, #{tradeType,jdbcType=VARCHAR},
+      #{payWay,jdbcType=VARCHAR}, #{payStatus,jdbcType=VARCHAR}, #{evaluation,jdbcType=VARCHAR},
+      #{consumeAddress,jdbcType=VARCHAR}, #{creator,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP},
+      #{updator,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.moliniao.entity.Order">
+    update cms_order
+    set order_no = #{orderNo,jdbcType=VARCHAR},
+      student_id = #{studentId,jdbcType=BIGINT},
+      type = #{type,jdbcType=INTEGER},
+      total_price = #{totalPrice,jdbcType=DECIMAL},
+      trade_type = #{tradeType,jdbcType=VARCHAR},
+      pay_way = #{payWay,jdbcType=VARCHAR},
+      pay_status = #{payStatus,jdbcType=VARCHAR},
+      evaluation = #{evaluation,jdbcType=VARCHAR},
+      consume_address = #{consumeAddress,jdbcType=VARCHAR},
+      creator = #{creator,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      updator = #{updator,jdbcType=VARCHAR},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, order_no, student_id, type, total_price, trade_type, pay_way, pay_status,
+    evaluation, consume_address, creator, create_time, updator, update_time
+    from cms_order
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, order_no, student_id, type, total_price, trade_type, pay_way, pay_status,
+    evaluation, consume_address, creator, create_time, updator, update_time
+    from cms_order
+  </select>
+
+  <select id="getOrderInfo" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, order_no, student_id, type, total_price, trade_type, pay_way, pay_status,
+    evaluation, consume_address, creator, create_time, updator, update_time
+    from cms_order where student_id = #{studentId,jdbcType=BIGINT}
+  </select>
+
+  <insert id="insertStudentOrderInfo" parameterType="com.moliniao.entity.Order">
+    insert into cms_order (id, order_no, student_id,
+    type, total_price, trade_type,
+    pay_way, pay_status, evaluation,
+    consume_address, creator, create_time)
+    values (#{id,jdbcType=BIGINT}, #{orderNo,jdbcType=VARCHAR}, #{studentId,jdbcType=BIGINT},
+    #{type,jdbcType=INTEGER}, #{totalPrice,jdbcType=DECIMAL}, #{tradeType,jdbcType=VARCHAR},
+    #{payWay,jdbcType=VARCHAR}, #{payStatus,jdbcType=VARCHAR}, #{evaluation,jdbcType=VARCHAR},
+    #{consumeAddress,jdbcType=VARCHAR}, #{creator,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+</mapper>

@@ -1,0 +1,15 @@
+server:
+  port: 7003
+
+eureka:
+  instance:
+    hostname: eurekathree.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eurekaone.com:7001/eureka/,http://eurekatwo.com:7002/eureka/
+
+
+
+
