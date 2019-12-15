@@ -1,6 +1,12 @@
 # moliniao-spring-cloud
 spring-boot版本2.1.10.RELEASE
 spring-cloud版本Greenwich.SR4
+spring版本5.1.11
+更新.ignore文件
+git rm -r --cached .
+git add .
+git commit
+
 
 eureka服务端配置：
 eureka:
