@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="moliniao-eureka-server-three" />
         <module name="moliniao-eureka-server-one" />
+        <module name="moliniao-consumer-feign" />
         <module name="moliniao-provider-three" />
         <module name="moliniao-provider" />
         <module name="moliniao-eureka-server-two" />
         <module name="moliniao-provider-one" />
         <module name="moliniao-package" />
         <module name="moliniao-eureka-server" />
+        <module name="moliniao-provider-feign" />
         <module name="moliniao-common" />
         <module name="moliniao-provider-two" />
         <module name="moliniao-consumer" />
@@ -22,16 +24,23 @@
     <bytecodeTargetLevel target="8">
       <module name="moliniao-common" target="1.8" />
       <module name="moliniao-consumer" target="1.8" />
+      <module name="moliniao-consumer-feign" target="1.8" />
       <module name="moliniao-eureka-server" target="1.8" />
       <module name="moliniao-eureka-server-one" target="1.8" />
       <module name="moliniao-eureka-server-three" target="1.8" />
       <module name="moliniao-eureka-server-two" target="1.8" />
       <module name="moliniao-package" target="1.8" />
       <module name="moliniao-provider" target="1.8" />
+      <module name="moliniao-provider-feign" target="1.8" />
       <module name="moliniao-provider-one" target="1.8" />
       <module name="moliniao-provider-three" target="1.8" />
       <module name="moliniao-provider-two" target="1.8" />
       <module name="moliniao-spring-cloud" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="moliniao-provider-feign" options="" />
+    </option>
   </component>
 </project>

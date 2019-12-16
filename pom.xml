@@ -23,6 +23,7 @@
 		<module>moliniao-eureka-server-two</module>
 		<module>moliniao-eureka-server-three</module>
 		<module>moliniao-consumer-feign</module>
+		<module>moliniao-provider-feign</module>
 	</modules>
 
 	<properties>

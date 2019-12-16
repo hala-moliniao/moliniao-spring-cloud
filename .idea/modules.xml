@@ -4,12 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/moliniao-common/moliniao-common.iml" filepath="$PROJECT_DIR$/moliniao-common/moliniao-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-consumer/moliniao-consumer.iml" filepath="$PROJECT_DIR$/moliniao-consumer/moliniao-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moliniao-consumer-feign/moliniao-consumer-feign.iml" filepath="$PROJECT_DIR$/moliniao-consumer-feign/moliniao-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-eureka-server/moliniao-eureka-server.iml" filepath="$PROJECT_DIR$/moliniao-eureka-server/moliniao-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-eureka-server-one/moliniao-eureka-server-one.iml" filepath="$PROJECT_DIR$/moliniao-eureka-server-one/moliniao-eureka-server-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-eureka-server-three/moliniao-eureka-server-three.iml" filepath="$PROJECT_DIR$/moliniao-eureka-server-three/moliniao-eureka-server-three.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-eureka-server-two/moliniao-eureka-server-two.iml" filepath="$PROJECT_DIR$/moliniao-eureka-server-two/moliniao-eureka-server-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-package/moliniao-package.iml" filepath="$PROJECT_DIR$/moliniao-package/moliniao-package.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-provider/moliniao-provider.iml" filepath="$PROJECT_DIR$/moliniao-provider/moliniao-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moliniao-provider-feign/moliniao-provider-feign.iml" filepath="$PROJECT_DIR$/moliniao-provider-feign/moliniao-provider-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-provider-one/moliniao-provider-one.iml" filepath="$PROJECT_DIR$/moliniao-provider-one/moliniao-provider-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-provider-three/moliniao-provider-three.iml" filepath="$PROJECT_DIR$/moliniao-provider-three/moliniao-provider-three.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-provider-two/moliniao-provider-two.iml" filepath="$PROJECT_DIR$/moliniao-provider-two/moliniao-provider-two.iml" />

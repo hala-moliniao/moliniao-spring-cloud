@@ -1,11 +1,14 @@
 server:
-  port: 8086
+  port: 8081
   servlet:
-    context-path: /consumer
+    context-path: /provider
 
 spring:
   application:
-    name: moliniao-consumer-feign
+    name: moliniao-provider-feign
+  devtools:
+    restart:
+      enabled: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
@@ -33,5 +36,13 @@ mybatis:
 info:
   app.name: moliniao-spring-cloud
   company.name: www.moliniao.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+
+eureka:
+  instance:
+    instance-id: moliniao-provider-one
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eurekaone.com:7001/eureka/,http://eurekatwo.com:7002/eureka/,http://eurekathree.com:7003/eureka/
