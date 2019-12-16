@@ -137,5 +137,6 @@ info:
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
   
+错误8：Feign接口,feign.FeignException$NotFound: status 404 reading StudentOrderService#getStudentOrderInfo(Long)
   
 

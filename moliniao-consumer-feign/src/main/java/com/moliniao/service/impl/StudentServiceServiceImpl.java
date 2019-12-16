@@ -1,12 +1,13 @@
 package com.moliniao.service.impl;
 
 
-import com.moliniao.common.Result;
 import com.moliniao.dto.request.OrderInfoReq;
 import com.moliniao.dto.response.OrderInfoRes;
 import com.moliniao.dto.response.StudentOrderRes;
+import com.moliniao.service.StudentOrderService;
 import com.moliniao.service.StudentService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -18,13 +19,18 @@ import org.springframework.stereotype.Service;
 @Service
 public class StudentServiceServiceImpl implements StudentService {
 
+    @Autowired
+    private StudentOrderService studentOrderService;
+
     @Override
-    public Result<StudentOrderRes> getStudentOrder(Long id) {
-        return null;
+    public StudentOrderRes getStudentOrder(Long id) {
+        StudentOrderRes studentOrderInfo = studentOrderService.getStudentOrderInfo(id);
+        return studentOrderInfo;
     }
 
     @Override
-    public Result<OrderInfoRes> addOrderInfo(OrderInfoReq orderInfoReq) {
-        return null;
+    public OrderInfoRes addOrderInfo(OrderInfoReq orderInfoReq) {
+        OrderInfoRes orderInfoRes = studentOrderService.addStudentOrderInfo(orderInfoReq);
+        return orderInfoRes;
     }
 }

@@ -1,6 +1,5 @@
 package com.moliniao.service;
 
-import com.moliniao.common.Result;
 import com.moliniao.dto.request.OrderInfoReq;
 import com.moliniao.dto.response.OrderInfoRes;
 import com.moliniao.dto.response.StudentOrderRes;
@@ -10,10 +9,11 @@ import com.moliniao.dto.response.StudentOrderRes;
  * @date: 2019/11/28
  * @description: com.moliniao.consumer.service.impl
  */
+
 public interface StudentService {
 
-    Result<StudentOrderRes> getStudentOrder(Long id);
+    StudentOrderRes getStudentOrder(Long id);
 
-    Result<OrderInfoRes> addOrderInfo(OrderInfoReq orderInfoReq);
+    OrderInfoRes addOrderInfo(OrderInfoReq orderInfoReq);
 
 }

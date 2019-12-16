@@ -37,12 +37,14 @@ public class StudentController {
 
     @GetMapping("/queryOrder")
     public Result<StudentOrderRes> getOrderInfo(@RequestParam Long id) {
-        return null;
+        StudentOrderRes studentOrder = studentService.getStudentOrder(id);
+        return Result.success(studentOrder);
     }
 
     @PostMapping("/addOrder")
     public Result<OrderInfoRes> addOrderInfo(@RequestBody OrderInfoReq orderInfoReq) {
-        return null;
+        OrderInfoRes orderInfoResResult = studentService.addOrderInfo(orderInfoReq);
+        return Result.success(orderInfoResResult);
     }
 
     @GetMapping(value = "/studentDiscovery")

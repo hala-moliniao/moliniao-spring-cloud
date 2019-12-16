@@ -1,7 +1,5 @@
 server:
   port: 8086
-  servlet:
-    context-path: /consumer
 
 spring:
   application:
@@ -33,5 +31,13 @@ mybatis:
 info:
   app.name: moliniao-spring-cloud
   company.name: www.moliniao.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+
+eureka:
+  instance:
+    instance-id: moliniao-consumer-feign
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
