@@ -1,31 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="d59b80eb-807d-464d-aff6-8e49ca5a2360" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -36,48 +14,18 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1V13PGkZHeDVDKUEPiJR2C9lvAH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1V6SWNhMXKTJYvqMCOJOP2GB6ep" />
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moliniao-provider-feign/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.moliniao.feign.fallback" />
-      <recent name="com.moliniao.service" />
-      <recent name="com.moliniao.controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\moliniao-spring-cloud\moliniao-provider-feign\src\main\resources" />
-      <recent name="D:\github\moliniao-spring-cloud\moliniao-provider-feign\src\main\java\com\moliniao" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.MoliniaoConsumerFeignApplication">
+  <component name="RunManager" selected="Spring Boot.MoliniaoProviderApplication">
     <configuration name="MoliniaoConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConsumerApplication" />
@@ -85,16 +33,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoliniaoConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MoliniaoConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-consumer-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConsumerFeignApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoliniaoEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MoliniaoEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoliniaoEurekaServerOneApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="moliniao-eureka-server-one" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoEurekaServerOneApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoliniaoEurekaServerThreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="moliniao-eureka-server-three" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoEurekaServerThreeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoliniaoEurekaServerTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="moliniao-eureka-server-two" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoEurekaServerTwoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoliniaoProviderFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MoliniaoProviderFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-provider-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoProviderFeignApplication" />
       <method v="2">
@@ -141,101 +110,5 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.MoliniaoConsumerFeignApplication" />
-        <item itemvalue="Spring Boot.MoliniaoProviderFeignApplication" />
-        <item itemvalue="Spring Boot.MoliniaoEurekaServerApplication" />
-        <item itemvalue="Spring Boot.MoliniaoConsumerFeignApplication" />
-        <item itemvalue="Spring Boot.MoliniaoProviderFeignApplication" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="d59b80eb-807d-464d-aff6-8e49ca5a2360" name="Default Changelist" comment="" />
-      <created>1576406747272</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1576406747272</updated>
-      <workItem from="1576406748511" duration="11400000" />
-      <workItem from="1576548191023" duration="11938000" />
-    </task>
-    <task id="LOCAL-00001" summary="增加笔记">
-      <created>1576422347664</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1576422347664</updated>
-    </task>
-    <task id="LOCAL-00002" summary="增加feign">
-      <created>1576500565384</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1576500565384</updated>
-    </task>
-    <task id="LOCAL-00003" summary="增加feign">
-      <created>1576500876941</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1576500876941</updated>
-    </task>
-    <task id="LOCAL-00004" summary="增加feign">
-      <created>1576503739692</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1576503739692</updated>
-    </task>
-    <task id="LOCAL-00005" summary="增加feign">
-      <created>1576565107174</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1576565107174</updated>
-    </task>
-    <task id="LOCAL-00006" summary="增加feign">
-      <created>1576568289993</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1576568289993</updated>
-    </task>
-    <task id="LOCAL-00007" summary="格式化readme文件">
-      <created>1576571599678</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1576571599678</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加笔记" />
-    <MESSAGE value="增加feign" />
-    <MESSAGE value="格式化readme文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="格式化readme文件" />
   </component>
 </project>

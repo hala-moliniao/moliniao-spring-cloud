@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-consumer" charset="UTF-8" />
@@ -9,13 +9,11 @@
     <file url="file://$PROJECT_DIR$/moliniao-eureka-server-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-eureka-server-three" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-eureka-server-two" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/moliniao-eureka-server/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/moliniao-package" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-three" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-two" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
