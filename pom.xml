@@ -68,11 +68,6 @@
 			</dependency>
 			<dependency>
 				<groupId>com.moliniao</groupId>
-				<artifactId>moliniao-provider-feign</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.moliniao</groupId>
 				<artifactId>moliniao-consumer</artifactId>
 				<version>${project.version}</version>
 			</dependency>

@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
  */
 @Slf4j
 @Service
-public class StudentServiceServiceImpl implements StudentService {
+public class StudentServiceImpl implements StudentService {
 
     @Override
     public Result<StudentOrderRes> getStudentOrder(Long id) {
