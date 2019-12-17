@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface StudentOrderServiceFeign {
 
     @GetMapping(value = "/pfeign/getOrder")
-    Result<StudentOrderRes> getStudentOrderInfo(@RequestParam("id") Long studentId);
+    Result<StudentOrderRes> getStudentOrderInfo(@RequestParam("studentId") Long studentId);
 
     @PostMapping(value = "/pfeign/addOrder")
     Result<OrderInfoRes> addStudentOrderInfo(OrderInfoReq orderInfoReq);

@@ -137,6 +137,14 @@ info:
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
   
-错误8：Feign接口,feign.FeignException$NotFound: status 404 reading StudentOrderService#getStudentOrderInfo(Long)
-  
+错误8:Feign接口,feign.FeignException$NotFound: status 404 reading StudentOrderService#getStudentOrderInfo(Long)
+1）服务消费者和提供者进程运行ok
+2）Feign接口通过第三方jar包配置使用
+3）三个模块都要引入如下依赖
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>  
+错误9:com.netflix.client.ClientException: Load balancer does not have available server for client: moliniao-provider-feign
+只有一个服务提供者的时候负载均衡会失效
 

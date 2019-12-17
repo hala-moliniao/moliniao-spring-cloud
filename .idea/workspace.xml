@@ -2,26 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d59b80eb-807d-464d-aff6-8e49ca5a2360" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_4_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/StudentOrderServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/fallback/StudentOrderServiceFeignFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliniao-provider-feign/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_4_7_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-common/moliniao-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-common/moliniao-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/StudentOrderServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/StudentOrderServiceFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/moliniao-consumer-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/moliniao-consumer-feign.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/service/impl/StudentServiceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/service/impl/StudentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-consumer/moliniao-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer/moliniao-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-consumer/src/main/java/com/moliniao/service/impl/StudentServiceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer/src/main/java/com/moliniao/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-consumer/src/main/java/com/moliniao/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer/src/main/java/com/moliniao/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-consumer/src/main/java/com/moliniao/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer/src/main/java/com/moliniao/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-package/moliniao-package.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-package/moliniao-package.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-package/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-package/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-provider-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/mapper/StudentMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/service/StudentOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/service/StudentOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-feign/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-provider-one/moliniao-provider-one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-one/moliniao-provider-one.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-one/src/main/java/com/moliniao/service/StudentOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-one/src/main/java/com/moliniao/service/StudentOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-one/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-one/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-provider-three/moliniao-provider-three.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-three/moliniao-provider-three.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-three/src/main/java/com/moliniao/service/StudentOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-three/src/main/java/com/moliniao/service/StudentOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-three/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-three/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-provider-two/moliniao-provider-two.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-two/moliniao-provider-two.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-two/src/main/java/com/moliniao/service/StudentOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-two/src/main/java/com/moliniao/service/StudentOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-two/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-two/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-provider/moliniao-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider/moliniao-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider/src/main/java/com/moliniao/service/StudentOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider/src/main/java/com/moliniao/service/StudentOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +79,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moliniao-provider-feign/src/main/resources" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,6 +87,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.moliniao.feign.fallback" />
       <recent name="com.moliniao.service" />
       <recent name="com.moliniao.controller" />
     </key>
@@ -108,27 +126,6 @@
     <configuration name="MoliniaoEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="moliniao-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoEurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoliniaoEurekaServerOneApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="moliniao-eureka-server-one" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoEurekaServerOneApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoliniaoEurekaServerThreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="moliniao-eureka-server-three" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoEurekaServerThreeApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoliniaoEurekaServerTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="moliniao-eureka-server-two" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoEurekaServerTwoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576406747272</updated>
       <workItem from="1576406748511" duration="11400000" />
-      <workItem from="1576548191023" duration="7943000" />
+      <workItem from="1576548191023" duration="11181000" />
     </task>
     <task id="LOCAL-00001" summary="增加笔记">
       <created>1576422347664</created>
@@ -224,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576503739692</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加feign">
+      <created>1576565107174</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576565107174</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
