@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93a5f566-64f5-4989-9ea6-5a47b12bac4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/architecture.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/moliniao-consumer-ribbon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/LoadBalance/config/CustomRoundRobinRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/LoadBalance/config/CustomRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/MoliniaoConsumerRibbonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/config/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/test/java/com/moliniao/MoliniaoConsumerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTERVIEW.md" beforeDir="false" afterPath="$PROJECT_DIR$/INTERVIEW.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/StudentOrderServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/StudentOrderServiceFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/MoliniaoConsumerFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/MoliniaoConsumerFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-eureka-server-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-eureka-server-one/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-eureka-server-three/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-eureka-server-three/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-eureka-server-two/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-eureka-server-two/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-package/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-package/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-package/src/test/java/com/moliniao/MoliniaoPackageApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-provider-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-one/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-one/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-one/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-three/src/main/java/com/moliniao/MoliniaoProviderTwoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-two/src/main/java/com/moliniao/MoliniaoProviderTwoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-three/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-three/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-two/src/main/java/com/moliniao/MoliniaoProviderThreeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-three/src/main/java/com/moliniao/MoliniaoProviderThreeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-provider-two/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-two/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MoliniaoConsumerRibbonApplication">
+  <component name="RunManager" selected="Spring Boot.MoliniaoConsumerFeignApplication">
     <configuration name="MoliniaoConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConsumerApplication" />
@@ -245,7 +206,7 @@
       <updated>1576572082671</updated>
       <workItem from="1576572084440" duration="843000" />
       <workItem from="1576573152386" duration="111000" />
-      <workItem from="1577457947879" duration="11062000" />
+      <workItem from="1577457947879" duration="12468000" />
     </task>
     <task id="LOCAL-00001" summary="修改.md文件格式">
       <created>1576572274271</created>
@@ -268,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576572866286</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加Ribbon组件">
+      <created>1577608820457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577608820457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +257,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改.md文件格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改.md文件格式" />
+    <MESSAGE value="增加Ribbon组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Ribbon组件" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/moliniao-provider-feign/src/main/java/com/moliniao/controller/OrderController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/controller/StudentController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/moliniao-consumer-feign/src/main/java/com/moliniao/service/impl/StudentServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

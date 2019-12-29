@@ -17,7 +17,8 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class StudentController {
 
-    private static final String REST_URL_PREFIX = "http://localhost:8081";
+//    private static final String REST_URL_PREFIX = "http://localhost:8081";
+    private static final String REST_URL_PREFIX = "http://moliniao-provider-feign";
 
     @Autowired
     private RestTemplate restTemplate;
