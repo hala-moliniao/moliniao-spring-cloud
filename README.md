@@ -1,9 +1,9 @@
 # moliniao-spring-cloud
-Spring-cloud版本Greenwich.SR4
+Spring-cloud版本Greenwich.SR4/2.1.4.RELEASE
 
 Spring-boot版本2.1.10.RELEASE
 
-Spring版本5.1.11
+Spring版本5.1.11.RELEASE
 
 Java版本 1.8
 
@@ -180,4 +180,6 @@ info:
 错误9:com.netflix.client.ClientException: Load balancer does not have available server for client: moliniao-provider-feign
 
 只有一个服务提供者的时候负载均衡会失效
+自定义负载均衡配置类不能放在@ComponentScan所扫描的当前包及子包下，否则我们自定义的这个配置类就会被所有的Ribbon客户端所共享，也就是
+说达不到特殊化定制的目的了。
 

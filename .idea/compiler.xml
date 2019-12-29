@@ -6,25 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="moliniao-eureka-server-three" />
-        <module name="moliniao-eureka-server-one" />
-        <module name="moliniao-consumer-feign" />
+        <module name="moliniao-package" />
+        <module name="moliniao-provider-two" />
         <module name="moliniao-provider-three" />
         <module name="moliniao-provider" />
+        <module name="moliniao-eureka-server-three" />
+        <module name="moliniao-eureka-server-one" />
+        <module name="moliniao-consumer" />
+        <module name="moliniao-consumer-feign" />
         <module name="moliniao-eureka-server-two" />
+        <module name="moliniao-consumer-ribbon" />
         <module name="moliniao-provider-one" />
-        <module name="moliniao-package" />
-        <module name="moliniao-eureka-server" />
         <module name="moliniao-provider-feign" />
         <module name="moliniao-common" />
-        <module name="moliniao-provider-two" />
-        <module name="moliniao-consumer" />
+        <module name="moliniao-eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="moliniao-common" target="1.8" />
       <module name="moliniao-consumer" target="1.8" />
       <module name="moliniao-consumer-feign" target="1.8" />
+      <module name="moliniao-consumer-ribbon" target="1.8" />
       <module name="moliniao-eureka-server" target="1.8" />
       <module name="moliniao-eureka-server-one" target="1.8" />
       <module name="moliniao-eureka-server-three" target="1.8" />

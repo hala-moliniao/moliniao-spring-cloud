@@ -53,24 +53,42 @@ Ribbon是基于Netflix Ribbon实现的一套客户端,负载均衡的工具。�
 
 分为两种：
 
-集中式的LB(偏硬件，如F5)
+集中式的LB(偏硬件，如F5):在服务的消费方和提供方之间使用独立的LB设施(可以是硬件，如F5，也可以是软件，如Nginx)，由该设施负责把访问
+请求通过某种策略转发至服务的提供方。
 
 进程内的(偏软件,如Nginx)：将LB集成到消费方，消费方从服务注册中心获取哪些服务地址可用，然后自己再从这些地址中选择一个合适的服务器。
 
 Ribbon就属于进程内的,它只是一个库类,集成与消费方进程,消费方通过它来获取服务提供方的地址,Ribbon其实就是一个软负载均衡的客户端组件,
 它可以和其他所需请求的客户端结合使用,和eureka结合只是一个实例。
+Ribbon和Eureka整合后Consumer可以直接调用服务而不用再关心地址和端口号
 
 负载均衡接口IRule：
 
 实现AbstractLoadBalancerRule的配置类不能放在@ComponentScan所扫描的当前包及其子包下，即不在主启动类所在包下,否则我们自定义的这个
 配置类就会被所有的Ribbon客户端所共享,也就是说我们达不到特殊化定制的目的了。
 
+1.RoundRobinRule 轮询
+2.RandomRule 随机
+3.RetryRule 先按照RoundRobinRule的策略获取服务，如果获取服务失败则再指定时间内进行重试，获取可用的服务
+4.AvailabilityFilteringRule 会先过滤掉由于多次访问故障而处于断路器跳闸状态的服务，还有并发的连接数量超过阈值的服务，然后对剩余
+的服务列表按照轮询策略进行访问
+5.BestAvailableRule 会先过滤掉由于多次访问故障而处于断路器跳闸状态的服务，然后选择一个并发量最小的服务
+6.ZoneAvoidanceRule 默认规则，复合判断server所在区域的性能和server的可用性选择服务器
+7.WeightedResponseTimeRule 根据平均响应时间计算所有服务的权重，响应时间越快服务权重越大被选中的概率越高，刚启动时如果统计信息不足
+则使用RoundRobinRule策略，等统计信息足够，会切换到WeightedResponseTimeRule
+
+
+
 # Feign是什么？
 
 Feign是声明式WebService客户端,Spring cloud对Feign进行了封装,使其支持spring mvc标准注解和HttpMessageConverters可以
 与Ribbon、Eureka组合使用以支持负载均衡,旨在使得编写Java Http客户端更加容易,只需要创建一个接口,然后再上面加一个注解。
 
-# Hystrix
+Feign是怎么出来的？
+大部分的开发者都可以接受直接调用我们的微服务来进行访问，但因为目前大家都习惯面向接口编程，比如WebService，比如我们的Mapper接口
+通过接口+注解获得我们的调用服务，通过微服务名字获取服务
+
+# Hystrix是什么？
 
 Hystrix是一个用于处理分布式系统的延迟和容错的开源库，在分布式系统里，许多依赖不可避免的调用失败，比如超时、异常,Hystrix能够保证在
 一个依赖出问题的情况下，不会导致整体服务失败，避免级联故障，以提高分布式系统的弹性。

@@ -18,7 +18,7 @@ import java.util.List;
  * @description: com.com.moliniao.moliniao.consumer.endpoint
  */
 @RestController
-@RequestMapping("/pfeign")
+@RequestMapping("/profeign")
 public class OrderController {
 
     @Autowired

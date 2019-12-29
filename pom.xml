@@ -24,6 +24,7 @@
 		<module>moliniao-eureka-server-three</module>
 		<module>moliniao-consumer-feign</module>
 		<module>moliniao-provider-feign</module>
+		<module>moliniao-consumer-ribbon</module>
 	</modules>
 
 	<properties>

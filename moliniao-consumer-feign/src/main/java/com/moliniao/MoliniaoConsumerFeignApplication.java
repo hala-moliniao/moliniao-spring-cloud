@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableFeignClients(basePackages = {"com.moliniao"})
+@EnableFeignClients
 public class MoliniaoConsumerFeignApplication {
 
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: moliniao-provider-one
+    name: moliniao-provider-ribbon
   devtools:
     restart:
       enabled: true

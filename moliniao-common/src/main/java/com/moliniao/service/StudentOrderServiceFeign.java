@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(value = "moliniao-provider-feign")
 public interface StudentOrderServiceFeign {
 
-    @GetMapping(value = "/pfeign/getOrder")
+    @GetMapping(value = "/profeign/getOrder")
     Result<StudentOrderRes> getStudentOrderInfo(@RequestParam("studentId") Long studentId);
 
-    @PostMapping(value = "/pfeign/addOrder")
+    @PostMapping(value = "/profeign/addOrder")
     Result<OrderInfoRes> addStudentOrderInfo(OrderInfoReq orderInfoReq);
 }
