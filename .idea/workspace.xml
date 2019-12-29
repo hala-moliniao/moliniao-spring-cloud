@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93a5f566-64f5-4989-9ea6-5a47b12bac4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/moliniao-provider-hystrix.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java/com/moliniao/MoliniaoProviderHystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java/com/moliniao/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java/com/moliniao/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java/com/moliniao/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java/com/moliniao/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java/com/moliniao/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java/com/moliniao/service/StudentOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java/com/moliniao/service/impl/StudentOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/src/test/java/com/moliniao/MoliniaoProviderApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTERVIEW.md" beforeDir="false" afterPath="$PROJECT_DIR$/INTERVIEW.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/StudentOrderServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/StudentOrderServiceFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/fallback/StudentOrderServiceFeignFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/service/fallback/StudentOrderServiceFeignFallbackFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java/com/moliniao/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-package/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-hystrix/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-package/moliniao-package.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-package/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-package/src/main/java/com/moliniao/MoliniaoPackageApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-package/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/architecture.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -322,7 +284,8 @@
     <MESSAGE value="修改.md文件格式" />
     <MESSAGE value="增加Ribbon组件" />
     <MESSAGE value="测试Feign组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试Feign组件" />
+    <MESSAGE value="删除无用module" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除无用module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
