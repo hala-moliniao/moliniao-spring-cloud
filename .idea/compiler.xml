@@ -11,7 +11,9 @@
         <module name="moliniao-provider" />
         <module name="moliniao-eureka-server-three" />
         <module name="moliniao-eureka-server-one" />
+        <module name="moliniao-zuul-gateway" />
         <module name="moliniao-consumer" />
+        <module name="moliniao-consumer-hystrix-dashboard" />
         <module name="moliniao-consumer-feign" />
         <module name="moliniao-eureka-server-two" />
         <module name="moliniao-consumer-ribbon" />
@@ -26,6 +28,7 @@
       <module name="moliniao-common" target="1.8" />
       <module name="moliniao-consumer" target="1.8" />
       <module name="moliniao-consumer-feign" target="1.8" />
+      <module name="moliniao-consumer-hystrix-dashboard" target="1.8" />
       <module name="moliniao-consumer-ribbon" target="1.8" />
       <module name="moliniao-eureka-server" target="1.8" />
       <module name="moliniao-eureka-server-one" target="1.8" />
@@ -39,6 +42,7 @@
       <module name="moliniao-provider-three" target="1.8" />
       <module name="moliniao-provider-two" target="1.8" />
       <module name="moliniao-spring-cloud" target="1.8" />
+      <module name="moliniao-zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

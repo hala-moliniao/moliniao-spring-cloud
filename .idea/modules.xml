@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/moliniao-common/moliniao-common.iml" filepath="$PROJECT_DIR$/moliniao-common/moliniao-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-consumer/moliniao-consumer.iml" filepath="$PROJECT_DIR$/moliniao-consumer/moliniao-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-consumer-feign/moliniao-consumer-feign.iml" filepath="$PROJECT_DIR$/moliniao-consumer-feign/moliniao-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard/moliniao-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard/moliniao-consumer-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-consumer-ribbon/moliniao-consumer-ribbon.iml" filepath="$PROJECT_DIR$/moliniao-consumer-ribbon/moliniao-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-eureka-server/moliniao-eureka-server.iml" filepath="$PROJECT_DIR$/moliniao-eureka-server/moliniao-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-eureka-server-one/moliniao-eureka-server-one.iml" filepath="$PROJECT_DIR$/moliniao-eureka-server-one/moliniao-eureka-server-one.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/moliniao-provider-three/moliniao-provider-three.iml" filepath="$PROJECT_DIR$/moliniao-provider-three/moliniao-provider-three.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-provider-two/moliniao-provider-two.iml" filepath="$PROJECT_DIR$/moliniao-provider-two/moliniao-provider-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-spring-cloud.iml" filepath="$PROJECT_DIR$/moliniao-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" filepath="$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" />
     </modules>
   </component>
 </project>

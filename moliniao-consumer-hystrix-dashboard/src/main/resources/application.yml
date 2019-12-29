@@ -1,0 +1,9 @@
+server:
+  port: 9004
+
+#解决http://localhost:9001/actuator/hystrix.stream无法访问的问题
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

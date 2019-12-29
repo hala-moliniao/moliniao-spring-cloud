@@ -1,0 +1,25 @@
+server:
+  port: 9527
+  servlet:
+    context-path: /zuul
+
+spring:
+  application:
+    name: moliniao-zuul-gateway
+
+
+
+
+eureka:
+  instance:
+    instance-id: moliniao-zuul-gateway
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eurekaone.com:7001/eureka/,http://eurekatwo.com:7002/eureka/,http://eurekathree.com:7003/eureka/
+
+info:
+  app.name: moliniao-spring-cloud
+  company.name: www.moliniao.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

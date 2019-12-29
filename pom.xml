@@ -25,7 +25,9 @@
 		<module>moliniao-provider-feign</module>
 		<module>moliniao-consumer-ribbon</module>
 		<module>moliniao-provider-hystrix</module>
-	</modules>
+		<module>moliniao-consumer-hystrix-dashboard</module>
+        <module>moliniao-zuul-gateway</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
