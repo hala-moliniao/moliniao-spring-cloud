@@ -22,7 +22,7 @@ public class StudentController {
     /**
      * 微服务
      */
-    private static final String REST_URL_PREFIX = "http://moliniao-provider-ribbon";
+    private static final String REST_URL_PREFIX = "http://moliniao-provider-hystrix";
 
     @Autowired
     private RestTemplate restTemplate;
@@ -32,13 +32,15 @@ public class StudentController {
 
     @GetMapping("/queryOrderRest")
     public Result<StudentOrderRes> getOrderInfoRest(@RequestParam Long id) {
-        return restTemplate.getForObject(REST_URL_PREFIX + "/provider/getOrder?studentId=" + id, Result.class);
+        return restTemplate.getForObject(REST_URL_PREFIX + "/hystrix/getOrder?studentId=" + id, Result.class);
     }
 
     @PostMapping("/addOrderRest")
     public Result<OrderInfoRes> addOrderInfoRest(@RequestBody OrderInfoReq orderInfoReq) {
-        return restTemplate.postForObject(REST_URL_PREFIX + "/provider/addOrder", orderInfoReq, Result.class);
+        return restTemplate.postForObject(REST_URL_PREFIX + "/hystrix/addOrder", orderInfoReq, Result.class);
     }
+
+
 
     @GetMapping("/queryOrder")
     public Result<StudentOrderRes> getOrderInfo(@RequestParam Long id) {

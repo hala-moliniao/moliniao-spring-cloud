@@ -14,7 +14,6 @@
 		<module>moliniao-common</module>
 		<module>moliniao-provider</module>
 		<module>moliniao-consumer</module>
-		<module>moliniao-package</module>
 		<module>moliniao-eureka-server</module>
 		<module>moliniao-provider-one</module>
 		<module>moliniao-provider-two</module>
@@ -25,6 +24,7 @@
 		<module>moliniao-consumer-feign</module>
 		<module>moliniao-provider-feign</module>
 		<module>moliniao-consumer-ribbon</module>
+		<module>moliniao-provider-hystrix</module>
 	</modules>
 
 	<properties>

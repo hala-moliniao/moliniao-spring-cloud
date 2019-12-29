@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="moliniao-package" />
         <module name="moliniao-provider-two" />
         <module name="moliniao-provider-three" />
         <module name="moliniao-provider" />
@@ -20,6 +19,7 @@
         <module name="moliniao-provider-feign" />
         <module name="moliniao-common" />
         <module name="moliniao-eureka-server" />
+        <module name="moliniao-provider-hystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -34,6 +34,7 @@
       <module name="moliniao-package" target="11.0.4" />
       <module name="moliniao-provider" target="1.8" />
       <module name="moliniao-provider-feign" target="1.8" />
+      <module name="moliniao-provider-hystrix" target="1.8" />
       <module name="moliniao-provider-one" target="1.8" />
       <module name="moliniao-provider-three" target="1.8" />
       <module name="moliniao-provider-two" target="1.8" />

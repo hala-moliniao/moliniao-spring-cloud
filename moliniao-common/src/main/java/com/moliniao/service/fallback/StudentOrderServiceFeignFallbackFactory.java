@@ -20,13 +20,15 @@ public class StudentOrderServiceFeignFallbackFactory implements FallbackFactory<
             @Override
             public Result<StudentOrderRes> getStudentOrderInfo(Long studentId) {
                 log.error("{}号学生为查询到相关订单记录,请核对后再试.", studentId);
-                return Result.fail("111", "该学生没有相关订单信息");
+                StudentOrderRes studentOrderRes = new StudentOrderRes();
+                studentOrderRes.setEvaluation("去他妈的鬼，cnmb，老子都快饿死了，还遇到bug。。。。");
+                return Result.fail("111", "该学生没有相关订单信息", studentOrderRes);
             }
 
             @Override
             public Result<OrderInfoRes> addStudentOrderInfo(OrderInfoReq orderInfoReq) {
-				log.error("系统繁忙,请稍后再试.");
-				return Result.fail("111", "系统繁忙,请稍后再试.");
+                log.error("系统繁忙,请稍后再试.");
+                return Result.fail("111", "系统繁忙,请稍后再试.");
             }
         };
     }

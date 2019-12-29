@@ -1,13 +1,15 @@
 server:
-  port: 8085
+  port: 8084
+  servlet:
+    context-path: /hystrix
 
 spring:
   application:
-    name: moliniao-consumer-feign
+    name: moliniao-provider-hystrix
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull              # ���ݿ�����
+    url: jdbc:mysql://127.0.0.1:3306/feign?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull              # ���ݿ�����
     username: root
     password: mysqll
     hikari:
@@ -28,21 +30,16 @@ mybatis:
     map-underscore-to-camel-case: true
 
 
-
 info:
   app.name: moliniao-spring-cloud
   company.name: www.moliniao.com
-  build.artifactId: ${project.artifactId}
-  build.version: ${project.version}
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 
 eureka:
   instance:
-    instance-id: moliniao-consumer-feign
+    instance-id: moliniao-provider-hystrix
     prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://eurekaone.com:7001/eureka/,http://eurekatwo.com:7002/eureka/,http://eurekathree.com:7003/eureka/
-
-feign:
-  hystrix:
-    enabled: true
