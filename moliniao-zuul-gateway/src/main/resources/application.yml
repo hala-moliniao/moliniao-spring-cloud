@@ -1,14 +1,18 @@
 server:
   port: 9527
-  servlet:
-    context-path: /zuul
 
 spring:
   application:
     name: moliniao-zuul-gateway
 
 
-
+#zuul:
+#  prefix: /atguigu                  #设置统一公共前缀
+#  ignored-services: microservice-springcloud-provider
+#  #ignored-services: "*"     #设置多个服务名称隐藏
+#  routes:
+#    mydept.serviceId: microservice-springcloud-provider
+#    mydept.path: /mydept/**
 
 eureka:
   instance:
@@ -21,5 +25,5 @@ eureka:
 info:
   app.name: moliniao-spring-cloud
   company.name: www.moliniao.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}

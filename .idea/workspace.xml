@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93a5f566-64f5-4989-9ea6-5a47b12bac4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard/moliniao-consumer-hystrix-dashboard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard/src/main/java/com/moliniao/MoliniaoConsumerDashboardApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/src/main/java/com/moliniao/MoliniaoZuulGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="93a5f566-64f5-4989-9ea6-5a47b12bac4c" name="Default Changelist" comment="添加zuul">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTERVIEW.md" beforeDir="false" afterPath="$PROJECT_DIR$/INTERVIEW.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-provider-one/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-provider-one/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-zuul-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-zuul-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MoliniaoConsumerDashboardApplication">
+  <component name="RunManager" selected="Spring Boot.MoliniaoZuulGateway">
     <configuration name="MoliniaoConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConsumerApplication" />
@@ -194,13 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoliniaoProviderThreeApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="moliniao-provider-three" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoProviderThreeApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MoliniaoProviderThreeApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="moliniao-provider-hystrix" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoProviderThreeApplication" />
@@ -229,13 +205,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoliniaoZuulGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="moliniao-zuul-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoZuulGateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MoliniaoZuulGateway" />
         <item itemvalue="Spring Boot.MoliniaoConsumerDashboardApplication" />
         <item itemvalue="Spring Boot.MoliniaoProviderHystrixApplication" />
         <item itemvalue="Spring Boot.MoliniaoProviderThreeApplication (2)" />
         <item itemvalue="Spring Boot.MoliniaoProviderTwoApplication (1)" />
-        <item itemvalue="Spring Boot.MoliniaoProviderThreeApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577632064140</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加zuul">
+      <created>1577635542650</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577635542650</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +311,8 @@
     <MESSAGE value="测试Feign组件" />
     <MESSAGE value="删除无用module" />
     <MESSAGE value="修改文档格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改文档格式" />
+    <MESSAGE value="添加zuul" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加zuul" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
