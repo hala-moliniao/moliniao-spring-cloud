@@ -10,6 +10,7 @@
         <module name="moliniao-provider-three" />
         <module name="moliniao-provider" />
         <module name="moliniao-eureka-server-three" />
+        <module name="moliniao-config-server" />
         <module name="moliniao-eureka-server-one" />
         <module name="moliniao-zuul-gateway" />
         <module name="moliniao-consumer" />
@@ -26,6 +27,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="moliniao-common" target="1.8" />
+      <module name="moliniao-config-server" target="1.8" />
       <module name="moliniao-consumer" target="1.8" />
       <module name="moliniao-consumer-feign" target="1.8" />
       <module name="moliniao-consumer-hystrix-dashboard" target="1.8" />
@@ -44,5 +46,10 @@
       <module name="moliniao-spring-cloud" target="1.8" />
       <module name="moliniao-zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="moliniao-config-server" options="" />
+    </option>
   </component>
 </project>

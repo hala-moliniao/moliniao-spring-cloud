@@ -41,9 +41,9 @@ eureka:
 
 127.0.0.1       zuul.com
 
-127.0.0.1       config.com
+127.0.0.1       configclient.com
 
-127.0.0.1       clientconfig.com
+127.0.0.1       configserver.com
 
 
 2)修改yml配置

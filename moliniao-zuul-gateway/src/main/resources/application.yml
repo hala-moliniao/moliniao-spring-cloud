@@ -5,18 +5,24 @@ spring:
   application:
     name: moliniao-zuul-gateway
 
+#before http://zuul.com:9527/moliniao-provider-ribbon/getOrder?studentId=2
 
-#zuul:
-#  prefix: /atguigu                  #设置统一公共前缀
-#  ignored-services: microservice-springcloud-provider
-#  #ignored-services: "*"     #设置多个服务名称隐藏
-#  routes:
-#    mydept.serviceId: microservice-springcloud-provider
-#    mydept.path: /mydept/**
+zuul:
+  prefix: /moliniao                  #设置统一公共前缀
+  ignored-services: moliniao-provider-ribbon #隐藏真实微服务名称，设置一个服务名称隐藏
+  #ignored-services: "*"             #设置多个服务名称隐藏
+  routes:
+    route.serviceId: moliniao-provider-ribbon
+    route.path: /route/**
+
+
+#after http://zuul.com:9527/moliniao-provider-ribbon/getOrder?studentId=2
+
 
 eureka:
   instance:
-    instance-id: moliniao-zuul-gateway
+#    instance-id: moliniao-zuul-gateway
+    instance-id: zuul.com
     prefer-ip-address: true
   client:
     service-url:

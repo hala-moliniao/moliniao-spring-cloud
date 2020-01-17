@@ -1,0 +1,14 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: moliniao-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hala-moliniao/moliniao-spring-cloud.git #GitHub\u4E0A\u9762\u7684git\u4ED3\u5E93\u540D\u5B57
+          search-paths: API
+          username: halalmz@126.com
+          password: !QAZmao123
