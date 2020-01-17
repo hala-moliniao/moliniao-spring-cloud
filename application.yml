@@ -16,6 +16,6 @@ spring:
 spring:
   profiles: prod
   application:
-    name: moliniao-config-prod
+    name: moliniao-config-prod-limingzhou
 
 # 请保存为UTF-8格式
