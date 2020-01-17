@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93a5f566-64f5-4989-9ea6-5a47b12bac4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_10_0_201712302008_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-config-server/moliniao-config-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-config-server/src/main/java/com/moliniao/MoliniaoConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-config-server/src/test/java/com/moliniao/MoliniaoConfigServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="48415382-528d-4e43-a67b-dbede21d7bf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpg_jdk15on_1_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_61.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_5_1_201910021850_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_10_0_201712302008_r.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTERVIEW.md" beforeDir="false" afterPath="$PROJECT_DIR$/INTERVIEW.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-zuul-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-config-server/moliniao-config-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-server/moliniao-config-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,27 +31,6 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,12 +43,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1V6SWNhMXKTJYvqMCOJOP2GB6ep" />
+  <component name="ProjectId" id="1WVrRUxPwGDEvtiAh0tUP9wEF59" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -77,15 +55,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\moliniao-spring-cloud\moliniao-consumer-ribbon\src\main\java\LoadBalance\config" />
+      <recent name="D:\github\moliniao-spring-cloud" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,14 +79,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MoliniaoConfigServerApplication">
-    <configuration name="MoliniaoConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="moliniao-config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConfigApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoliniaoConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MoliniaoConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConfigServerApplication" />
       <method v="2">
@@ -118,13 +89,6 @@
     <configuration name="MoliniaoConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoliniaoConsumerDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="moliniao-consumer-hystrix-dashboard" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConsumerDashboardApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,13 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoliniaoPackageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="moliniao-package" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoPackageApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MoliniaoProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoProviderApplication" />
@@ -192,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoliniaoProviderHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MoliniaoProviderHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-provider-hystrix" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoProviderHystrixApplication" />
       <method v="2">
@@ -206,119 +163,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoliniaoProviderThreeApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="moliniao-provider-hystrix" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoProviderThreeApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MoliniaoProviderThreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="moliniao-provider-two" />
+      <module name="moliniao-provider-three" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoProviderThreeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MoliniaoProviderTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="moliniao-provider-three" />
+      <module name="moliniao-provider-two" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoProviderTwoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoliniaoZuulGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="moliniao-zuul-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoZuulGateway" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.MoliniaoConfigServerApplication" />
-        <item itemvalue="Spring Boot.MoliniaoZuulGateway" />
-        <item itemvalue="Spring Boot.MoliniaoConsumerDashboardApplication" />
-        <item itemvalue="Spring Boot.MoliniaoProviderHystrixApplication" />
-        <item itemvalue="Spring Boot.MoliniaoProviderThreeApplication (2)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="93a5f566-64f5-4989-9ea6-5a47b12bac4c" name="Default Changelist" comment="" />
-      <created>1576572082671</created>
+      <changelist id="48415382-528d-4e43-a67b-dbede21d7bf1" name="Default Changelist" comment="" />
+      <created>1579245594713</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576572082671</updated>
-      <workItem from="1576572084440" duration="843000" />
-      <workItem from="1576573152386" duration="111000" />
-      <workItem from="1577457947879" duration="19653000" />
-      <workItem from="1577670667563" duration="784000" />
-      <workItem from="1577757558418" duration="1270000" />
-      <workItem from="1577931008214" duration="203000" />
-      <workItem from="1579239433749" duration="5856000" />
+      <updated>1579245594713</updated>
+      <workItem from="1579245596020" duration="5213000" />
     </task>
-    <task id="LOCAL-00001" summary="修改.md文件格式">
-      <created>1576572274271</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1576572274271</updated>
-    </task>
-    <task id="LOCAL-00002" summary="修改.md文件格式">
-      <created>1576572699074</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1576572699074</updated>
-    </task>
-    <task id="LOCAL-00003" summary="修改.md文件格式">
-      <created>1576572866286</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1576572866286</updated>
-    </task>
-    <task id="LOCAL-00004" summary="增加Ribbon组件">
-      <created>1577608820457</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1577608820457</updated>
-    </task>
-    <task id="LOCAL-00005" summary="测试Feign组件">
-      <created>1577610326216</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1577610326216</updated>
-    </task>
-    <task id="LOCAL-00006" summary="修改文档格式">
-      <created>1577632064140</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1577632064140</updated>
-    </task>
-    <task id="LOCAL-00007" summary="添加zuul">
-      <created>1577635542650</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1577635542650</updated>
-    </task>
-    <task id="LOCAL-00008" summary="添加zuul">
-      <created>1577670706335</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1577670706335</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,33 +200,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="修改.md文件格式" />
-    <MESSAGE value="增加Ribbon组件" />
-    <MESSAGE value="测试Feign组件" />
-    <MESSAGE value="删除无用module" />
-    <MESSAGE value="修改文档格式" />
-    <MESSAGE value="添加zuul" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加zuul" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/moliniao-common/src/main/java/com/moliniao/common/Result.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

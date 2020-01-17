@@ -1,0 +1,38 @@
+spring:
+  profiles:
+    active:
+    - dev
+---     #分割符
+server:
+  port: 7001
+
+spring:
+  profiles: dev    #开发环境
+  application:
+    name: moliniao-springcloud-config-eureka-client-dev
+
+eureka:
+  instance:
+    host-info: eurekaone.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eurekaone.com:7001/eureka/
+---
+server:
+  port: 7001
+
+spring:
+  profiles: test    #测试环境
+  application:
+    name: moliniao-springcloud-config-eureka-client-test
+
+eureka:
+  instance:
+    host-info: eurekaone.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eurekaone.com:7001/eureka/

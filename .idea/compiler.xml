@@ -36,7 +36,6 @@
       <module name="moliniao-eureka-server-one" target="1.8" />
       <module name="moliniao-eureka-server-three" target="1.8" />
       <module name="moliniao-eureka-server-two" target="1.8" />
-      <module name="moliniao-package" target="11.0.4" />
       <module name="moliniao-provider" target="1.8" />
       <module name="moliniao-provider-feign" target="1.8" />
       <module name="moliniao-provider-hystrix" target="1.8" />
@@ -46,10 +45,5 @@
       <module name="moliniao-spring-cloud" target="1.8" />
       <module name="moliniao-zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="moliniao-config-server" options="" />
-    </option>
   </component>
 </project>

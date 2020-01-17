@@ -183,3 +183,17 @@ info:
 自定义负载均衡配置类不能放在@ComponentScan所扫描的当前包及子包下，否则我们自定义的这个配置类就会被所有的Ribbon客户端所共享，也就是
 说达不到特殊化定制的目的了。
 
+
+注:配置文件的名称是configtest.properties，但是如果直接该名称的话是获取不到的，因为在配置文件名需要通过-来进行获取，如果配置文件名称没有-，那么添加了-之后，会自动进行匹配搜索。
+
+Spring Cloud config 的URL与配置文件的映射关系如下:
+/{application}/{profile}[/{label}]
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
+
+访问url:
+http://configserver.com:3344/application-dev.yml
+http://configserver.com:3344/application/dev/master
+http://configserver.com:3344/master/application-dev.yml
