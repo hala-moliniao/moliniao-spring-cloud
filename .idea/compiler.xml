@@ -13,6 +13,7 @@
         <module name="moliniao-config-server" />
         <module name="moliniao-eureka-server-one" />
         <module name="moliniao-zuul-gateway" />
+        <module name="moliniao-config-client" />
         <module name="moliniao-consumer" />
         <module name="moliniao-consumer-hystrix-dashboard" />
         <module name="moliniao-consumer-feign" />
@@ -27,6 +28,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="moliniao-common" target="1.8" />
+      <module name="moliniao-config-client" target="1.8" />
       <module name="moliniao-config-server" target="1.8" />
       <module name="moliniao-consumer" target="1.8" />
       <module name="moliniao-consumer-feign" target="1.8" />

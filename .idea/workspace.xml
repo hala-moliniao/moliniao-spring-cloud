@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48415382-528d-4e43-a67b-dbede21d7bf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpg_jdk15on_1_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_5_1_201910021850_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliniao-config-client/moliniao-config-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliniao-config-client/src/main/java/com/moliniao/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliniao-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_10_0_201712302008_r.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-config-server/moliniao-config-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-server/moliniao-config-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-zuul-gateway/moliniao-zuul-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-client.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +22,13 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moliniao-config-client/src/main/resources" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\moliniao-spring-cloud\moliniao-config-client\src\main\resources" />
       <recent name="D:\github\moliniao-spring-cloud" />
     </key>
   </component>
@@ -79,6 +78,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MoliniaoConfigServerApplication">
+    <configuration name="MoliniaoConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="moliniao-config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoliniaoConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConfigServerApplication" />
@@ -188,8 +194,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579245594713</updated>
-      <workItem from="1579245596020" duration="5213000" />
+      <workItem from="1579245596020" duration="6465000" />
     </task>
+    <task id="LOCAL-00001" summary="新增配置文件">
+      <created>1579257759788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579257759788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,5 +219,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增配置文件" />
   </component>
 </project>

@@ -28,6 +28,7 @@
 		<module>moliniao-consumer-hystrix-dashboard</module>
         <module>moliniao-zuul-gateway</module>
         <module>moliniao-config-server</module>
+        <module>moliniao-config-client</module>
     </modules>
 
 	<properties>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/moliniao-common/moliniao-common.iml" filepath="$PROJECT_DIR$/moliniao-common/moliniao-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moliniao-config-client/moliniao-config-client.iml" filepath="$PROJECT_DIR$/moliniao-config-client/moliniao-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-config-server/moliniao-config-server.iml" filepath="$PROJECT_DIR$/moliniao-config-server/moliniao-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-consumer/moliniao-consumer.iml" filepath="$PROJECT_DIR$/moliniao-consumer/moliniao-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/moliniao-consumer-feign/moliniao-consumer-feign.iml" filepath="$PROJECT_DIR$/moliniao-consumer-feign/moliniao-consumer-feign.iml" />
