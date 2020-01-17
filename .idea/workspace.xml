@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48415382-528d-4e43-a67b-dbede21d7bf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-config-client/moliniao-config-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-config-client/src/main/java/com/moliniao/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliniao-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-client.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MoliniaoConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.MoliniaoConfigClientApplication">
     <configuration name="MoliniaoConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConfigClientApplication" />
@@ -194,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579245594713</updated>
-      <workItem from="1579245596020" duration="6465000" />
+      <workItem from="1579245596020" duration="7288000" />
     </task>
     <task id="LOCAL-00001" summary="新增配置文件">
       <created>1579257759788</created>
@@ -203,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579257759788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增配置文件">
+      <created>1579259153238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579259153238</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增配置文件">
+      <created>1579259209326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579259209326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
