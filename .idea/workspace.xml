@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48415382-528d-4e43-a67b-dbede21d7bf1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_4_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-config-client/moliniao-config-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-client/moliniao-config-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-client/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MoliniaoConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.MoliniaoConfigServerApplication">
     <configuration name="MoliniaoConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConfigClientApplication" />
@@ -184,7 +187,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579245594713</updated>
-      <workItem from="1579245596020" duration="7288000" />
+      <workItem from="1579245596020" duration="8677000" />
+      <workItem from="1579262168647" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="新增配置文件">
       <created>1579257759788</created>
@@ -207,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579259209326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增配置文件">
+      <created>1579259990975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579259990975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +229,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
