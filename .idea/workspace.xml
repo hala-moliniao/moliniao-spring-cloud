@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48415382-528d-4e43-a67b-dbede21d7bf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_4_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-config-client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-config-client/moliniao-config-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-client/moliniao-config-client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliniao-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-config-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliniao-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moliniao-config-server/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moliniao-config-client/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../microservice-springcloud-config/microservicespringcloud/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MoliniaoConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.MoliniaoConfigClientApplication">
     <configuration name="MoliniaoConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moliniao-config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moliniao.MoliniaoConfigClientApplication" />
@@ -188,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579245594713</updated>
       <workItem from="1579245596020" duration="8677000" />
-      <workItem from="1579262168647" duration="286000" />
+      <workItem from="1579262168647" duration="1337000" />
     </task>
     <task id="LOCAL-00001" summary="新增配置文件">
       <created>1579257759788</created>
@@ -218,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579259990975</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增配置文件">
+      <created>1579262686391</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579262686392</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
