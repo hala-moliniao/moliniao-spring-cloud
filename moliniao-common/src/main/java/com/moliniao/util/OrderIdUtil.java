@@ -1,6 +1,6 @@
 package com.moliniao.util;
 
-import com.moliniao.constant.SystemConstant;
+import com.moliniao.common.SystemConstant;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

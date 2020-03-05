@@ -32,7 +32,7 @@ eureka:
     # host-info: eureka7001.com    #eureka服务端的实例名称
 
 # eureka集群配置
-1)域名映射: C\Windows\System32\drivers\etc目录下hosts文件添加
+1)域名映射: C:\Windows\System32\drivers\etc目录下hosts文件添加
 127.0.0.1       eurekaone.com
 
 127.0.0.1       eurekatwo.com

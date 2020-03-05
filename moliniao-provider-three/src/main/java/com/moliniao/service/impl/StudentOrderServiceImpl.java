@@ -1,6 +1,6 @@
 package com.moliniao.service.impl;
 
-import com.moliniao.constant.SystemConstant;
+import com.moliniao.common.SystemConstant;
 import com.moliniao.dto.request.OrderInfoReq;
 import com.moliniao.dto.response.OrderInfoRes;
 import com.moliniao.dto.response.StudentOrderRes;

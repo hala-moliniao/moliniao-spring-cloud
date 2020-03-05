@@ -23,7 +23,6 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>com.moliniao</groupId>
             <artifactId>moliniao-common</artifactId>

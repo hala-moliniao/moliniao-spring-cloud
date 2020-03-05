@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class StudentController {
 
-//    private static final String REST_URL_PREFIX = "http://localhost:8081";
+    //private static final String REST_URL_PREFIX = "http://localhost:8084";
     private static final String REST_URL_PREFIX = "http://moliniao-provider-feign";
 
     @Autowired
@@ -28,12 +28,12 @@ public class StudentController {
 
     @GetMapping("/queryOrderRest")
     public Result<StudentOrderRes> getOrderInfoRest(@RequestParam Long id) {
-        return restTemplate.getForObject(REST_URL_PREFIX + "/provider/getOrder?studentId=" + id, Result.class);
+        return restTemplate.getForObject(REST_URL_PREFIX + "/profeign/getOrder?studentId=" + id, Result.class);
     }
 
     @PostMapping("/addOrderRest")
     public Result<OrderInfoRes> addOrderInfoRest(@RequestBody OrderInfoReq orderInfoReq) {
-        return restTemplate.postForObject(REST_URL_PREFIX + "/provider/addOrder", orderInfoReq, Result.class);
+        return restTemplate.postForObject(REST_URL_PREFIX + "/profeign/addOrder", orderInfoReq, Result.class);
     }
 
     @GetMapping("/queryOrder")

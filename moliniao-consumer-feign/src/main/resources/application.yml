@@ -41,7 +41,8 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://eurekaone.com:7001/eureka/,http://eurekatwo.com:7002/eureka/,http://eurekathree.com:7003/eureka/
+      defaultZone: http://localhost:7000/eureka/
+#      defaultZone: http://eurekaone.com:7001/eureka/,http://eurekatwo.com:7002/eureka/,http://eurekathree.com:7003/eureka/
 
 feign:
   hystrix:

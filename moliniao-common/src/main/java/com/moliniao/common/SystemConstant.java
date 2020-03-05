@@ -1,4 +1,4 @@
-package com.moliniao.constant;
+package com.moliniao.common;
 
 /**
  * @author: created by limingzhou

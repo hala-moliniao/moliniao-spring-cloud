@@ -3,22 +3,57 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-config-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-consumer-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-consumer-hystrix-dashboard/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-consumer-ribbon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-eureka-server-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-eureka-server-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-eureka-server-one/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-eureka-server-three" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-eureka-server-three/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-eureka-server-three/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-eureka-server-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-eureka-server-two/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-eureka-server-two/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-feign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-hystrix/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-one/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-three" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-three/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-three/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-provider-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-two/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider-two/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/moliniao-zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-zuul-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moliniao-zuul-gateway/src/main/resources" charset="UTF-8" />
   </component>
 </project>
