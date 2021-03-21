@@ -86,7 +86,7 @@ eureka:
 # 错误汇总
 
 错误1:Could not find artifact com.moliniao:XXX:pom:1.0-SNAPSHOT
- 
+
 A项目的sdk模块被B项目依赖，而A的sdk的pom里面有parent节点。本地环境下，多模块项目构建时，
 先将parent项目要先install一回，之后子项目才可以运行mvn compile命令,否则就会报如上异常。
 
@@ -116,8 +116,8 @@ Eureka通过“自我保护模式”来解决这个问题——当EurekaServer�
 服务实例。当它收到的心跳数重新恢复到阈值以上时，该Eureka Server节点就会自动退出自我保护模式。它的设计哲学就是宁可保留错误的服务注
 册信息，也不盲目注销任何可能健康的服务实例。一句话讲解:好死不如赖活着综上，自我保护模式是一种应对网络异常的安全保护措施。它的架构
 哲学是宁可同时保留所有微服务（健康的微服务和不健康的微服务都会保留），也不盲目注销任何健康的微服务。使用自我保护模式，可以让Eureka
-集群更加的健壮、稳定。在Spring Cloud中，可以使用eureka.server.enable-self-preservation = false 禁用自我保护模式。
- 
+集群更加的健壮、稳定。在Spring Cloud中，在注册中心可以使用eureka.server.enable-self-preservation = false 禁用自我保护模式。
+
 "错误5":UP (1) - YCKJ2786.ad.yc:moliniao-provider-one:8081修改容易识别的名字
 
 增加配置:eureka.instance.instance-id=moliniao-provider-one
@@ -164,7 +164,7 @@ info:
   company.name: www.moliniao.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
-  
+
 错误8:Feign接口,feign.FeignException$NotFound: status 404 reading StudentOrderService#getStudentOrderInfo(Long)
 
 1)服务消费者和提供者进程运行ok
@@ -204,3 +204,69 @@ bootstrap.yml 是系统级，优先级更高
 Spring cloud会创建一个Bootstrap Context，作为spring应用的Application Context的父上下文。初始化的时候，Bootstrap Context负责从外部源加载配置属性并解析配置。
 这两个上下文共享一个从外部获取的environment,Bootstrap属性有高优先级，默认情况下，它们不会被本地配置覆盖，Bootstrap Context和Application Context有着不同的约定，
 所以新增了一个bootstrap.yml文件，保证Bootstrap Context和Application Context配置的分离。
+
+eureka停更，替代者：zk、consule、nacos
+
+## 1、zk注册中心
+
+是一个基于观察者模式设计的分布式服务管理框架，负责存储和管理大家关心的数据，，然后接手观察者的注册，一旦这些数据的状态发生变化，zk就将负责通知已经在zk上注册的那些观察者作出相应的反应。
+
+zk = 文件系统 + 通知机制
+
+特点：
+
+一个master，多个follower组成的集群
+
+只要有半数以上的节点存活，zk集群就能正常服务
+
+全局数据一致，每个server保存一份相同的数据副本，Client无论连接哪个Server，数据都是一致的
+
+更新请求顺序进行，来自同一个Client的更新请求按其发送顺序依次执行
+
+数据更新原子性，一次数据要么成功，要么失败
+
+实时性，在一定时间范围内，Client能读到最新数据
+
+create -e /sanguo  "shuguo"
+
+create -s /sanguo/shuguo "liubei"
+
+## 2、consul服务注册和发现
+
+what？
+
+是一套开源的分布式服务发现和配置管理系统，用go语言开发。
+
+do what？
+
+服务发现（提供HTTP和DNS两种发现方式），健康监测，KV存储，多数据中心，可视化web界面。
+
+consul --version
+
+consul agent dev
+
+| 组件名    | 语言 | CAP  | 服务健康检查 | 对外暴露服务 | Spring Cloud集成 |
+| --------- | ---- | ---- | ------------ | ------------ | ---------------- |
+| Eureka    | Java | AP   | 可配支持     | HTTP         | 已集成           |
+| Consul    | Go   | CP   | 支持         | HTTP/DNS     | 已集成           |
+| Zookeeper | Java | CP   | 支持         | 客户端       | 已集成           |
+
+CP架构：当网络分区出现后，为了保证一致性，就必须拒绝请求，否则无法保证一致性
+
+结论：违背了可用性A的要求，只满足一致性和分区容错性，即CP
+
+## 3、负载均衡
+
+Ribbon本地负载均衡客户端和Nginx服务端负载均衡区别
+
+Nginx即服务器负载均衡，客户端所有请求都交给nginx，然后由nginx实现转发请求，即负载均衡是由服务端实现的。集中式的LB，F5硬件和Nginx软件。
+
+Ribbon本地负载均衡，在调用微服务接口时，会在注册中心上获取注册信息服务列表之后缓存到JVM本地，从而在本地实现RPC远程服务调用技术。进程内的LB，集成于消费方进程
+
+坑：
+
+```java
+@RibbonClient(name = "moliniao-provider-ribbon",configuration = CustomRule.class)
+服务名称如果是大写，则不起作用。
+```
+
