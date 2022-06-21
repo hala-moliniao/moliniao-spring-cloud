@@ -40,7 +40,7 @@
 		<lombok.version>1.18.10</lombok.version>
 		<spring-cloud.version>Greenwich.SR4</spring-cloud.version>
 		<spring-boot-release.version>2.1.10.RELEASE</spring-boot-release.version>
-		<mysql-connector-java.version>5.1.48</mysql-connector-java.version>
+		<mysql-connector-java.version>8.0.28</mysql-connector-java.version>
 		<mybatis-spring.version>2.1.1</mybatis-spring.version>
 		<commons-lang3.version>3.9</commons-lang3.version>
 	</properties>
